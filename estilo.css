@@ -1,0 +1,65 @@
+#icon {
+	width: 10em;
+	margin: auto;
+}
+
+body{
+	display: block;
+	font-size: 2em;
+	width: 100%;
+	height: 100%;
+	background-image: url("multimedia/fondo.png");
+	margin: 0;
+}
+
+*{
+	margin: .5em;
+	font-family: sans-serif;
+	align-items: center;
+	color: white;
+	position: static;
+}
+
+a{
+	text-decoration: none;
+	transition: 1s;
+	color: white;
+	margin: 50px;
+}
+
+#header {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+a:hover {
+	font-size: 2em;
+	color: grey;
+}
+
+@media only screen and (max-width: 1100px){
+	*{
+		font-size: 1em;
+
+	}
+
+	body{
+		margin: 0;
+		position: static;
+	}
+	a{
+		display: block;
+		font-size: .8em;
+
+	}
+
+	#icon {
+		width: 50%;
+	}
+
+	#aside {
+		margin: 0;
+	}
+}
+
