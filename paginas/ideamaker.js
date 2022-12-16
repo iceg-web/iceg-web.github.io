@@ -15,7 +15,7 @@ function tema() {
 		temaSi = 1;
 	}
 	else if (temaSi == 1) {
-		document.getElementById("tema").style.color = "black";
+		document.getElementById("tema").style.color = "white";
 		congeloTema = false;
 		temaSi = 0;
 	}
@@ -29,7 +29,7 @@ function jugabilidad() {
 		jSi = 1;
 	}
 	else if (jSi == 1) {
-		document.getElementById("jugabilidad").style.color = "black";
+		document.getElementById("jugabilidad").style.color = "white";
 		congeloj = false;
 		jSi = 0;
 	}
@@ -43,7 +43,7 @@ function historia() {
 		hSi = 1;
 	}
 	else if (hSi == 1) {
-		document.getElementById("historia").style.color = "black";
+		document.getElementById("historia").style.color = "white";
 		congeloh = false;
 		hSi = 0;
 	}
@@ -57,7 +57,7 @@ function escenario() {
 		eSi = 1;
 	}
 	else if (eSi == 1) {
-		document.getElementById("escenario").style.color = "black";
+		document.getElementById("escenario").style.color = "white";
 		congeloe = false;
 		eSi = 0;
 	}
