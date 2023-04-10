@@ -146,6 +146,13 @@
         text-align: justify;
         font-size: 1.5em;
       }
+
+      p{
+        max-width: 95%;
+        text-align: justify;
+        margin: auto;
+      }
+
       iframe {
         width: 100%;
         
