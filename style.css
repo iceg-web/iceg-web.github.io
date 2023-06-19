@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #030303;
+}
+
+*::selection{
+  background-color: darkcyan;
+  color: black;
+}
+
+
+.proyect{
+  position: absolute;
+  right: 2em;
+  bottom: 2em;
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  border-color: black;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  font-size: 3vw;
+}
+
+.proyect span{
+  display: flex;
+  align-content: center;
+}
+
+header{
+  background-image: linear-gradient(to bottom, black,black, transparent);
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  position: fixed;
+  border-color: black;
+  border-radius: 0em 0em 1em 1em;
+  height: 9vh;
+  z-index: 1;
+
+}
+
+header button{
+  background: transparent;
+  border-color: transparent;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+  
+
+
+
+.material-symbols-outlined {
+  
+}
+
+
+nav{
+  display: flex;
+  align-content: center;
+}
+
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: 3vh;
+  margin: 0.5em;
+}
+
+#presentacion{
+  height: 100%;
+  background: url("media/fondo.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#presentacion h1{
+  font-size: 10vw;
+  color: white;
+  margin: auto;
+
+}
+
+#presentacion video{
+  width: 75%;
+  height: 100%;
+  border-radius: 2em;
+}
+
+#banner {
+  height: 100vh;
+  display: flex;
+  z-index: 1;
+  
+  background: url("media/video.gif") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+button img{
+  position: absolute;
+  top: 0;
+}
+
+button{
+
+}
+
+header img{
+  width: 7vh;
+  height: 7vh;
+}
+
+#banner .content{
+  position: absolute;
+  bottom: 0;
+  justify-content: left;
+  color: #fff;
+  font-size: 5vw;
+  margin-left: 1em;
+  bottom: 0;
+}
+
+#banner .content h1{
+  margin-bottom: 0;
+  font-size: 5vw;
+}
+
+#banner .content p{
+  font-size: 2vw;
+}
+
+#proyectos{
+  background: #030303;
+  padding: 100px;
+  text-align: left;
+  color: #333;
+  height: 100vh;
+  color: grey;
+  font-size: 2vw;
+  margin: 0;
+}
+
+#proyectos h2{
+  display: inline;
+}
+
+#proyectos p{
+  display: inline;
+}
+
+#descripcion{
+  display: block;
+}
+
+#proyectos span{
+  z-index: 1;
+}
+
+#proyectos img{
+
+  width: 75%;
+  z-index: 0;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+
+#proyectos #twitch{
+  margin-top: 1em;
+  width: 15%;
+  cursor: pointer;
+  display: flex;
+}
+#proyectos #tiktok{
+  margin-top: 1em;
+  width: 15%;
+  cursor: pointer;
+  display: flex;
+}
+
+
+
+#image-section .content {
+  margin-bottom: 50px;
+}
+
+iframe{
+}
+
+#twitch{
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  align-content: center;
+  color: purple;
+}
+
+#tiktok{
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  align-content: center;
+  color: blue;
+}
+
+#twitch a{
+  color: purple;
+}
+
+#tiktok a{
+  color: skyblue;
+}
+
+#twitch img{
+  position: relative;
+  top: -1em;
+}
+
+#tiktok img{
+  position: relative;
+  top: -1em;
+}
+
+
+
+
+@media only screen and (max-width:1000px){
+  header{
+    flex-direction: column;
+  }
+  nav{
+    justify-content: center;
+  }
+  #banner .content{
+  position: block;
+  bottom: 15vh;
+}
+
+#proyectos{
+  background: #030303;
+  padding: 0px;
+  text-align: left;
+  color: #333;
+  height: 100vh;
+  color: grey;
+  font-size: 2vw;
+}
+
+#proyectos h2{
+  font-size: 8vw;
+
+}
+
+#proyectos img{
+  width: 100%;
+  z-index: 0;
+  margin-top: 12em;
+}
+
+#banner {
+  width: 100%;
+}
+
+  #banner .content h1{
+  margin-bottom: 0;
+  font-size: 13vw;
+}
+
+#banner .content p{
+  font-size: 4vw;
+}
+
+.proyect{
+  font-size: 6vw;
+}
+
+button img{
+  position: initial;
+}
+}
